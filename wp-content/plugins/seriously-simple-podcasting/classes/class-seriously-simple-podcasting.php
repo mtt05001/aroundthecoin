@@ -493,10 +493,10 @@ class SeriouslySimplePodcasting {
 					}
 
 					$meta = '';
-
-					if( is_single() ) {
 						$meta .= '<div class="podcast_player">' . $this->audio_player( $file ) . '</div>';
-					}
+					// if( is_single() ) {
+					// 	$meta .= '<div class="podcast_player">' . $this->audio_player( $file ) . '</div>';
+					// }
 
 					$meta .= '<div class="podcast_meta"><aside>';
 					if( $link && strlen( $link ) > 0 ) { $meta .= '<a href="' . esc_url( $link ) . '" title="' . get_the_title() . ' ">' . __( 'Download file' , 'ss-podcasting' ) . '</a>'; }

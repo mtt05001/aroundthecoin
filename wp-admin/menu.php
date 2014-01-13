@@ -28,6 +28,7 @@ $submenu[ 'index.php' ][0] = array( __('Home'), 'read', 'index.php' );
 
 if ( is_multisite() ) {
 	$submenu[ 'index.php' ][5] = array( __('My Sites'), 'read', 'my-sites.php' );
+$submenu[ 'index.php' ][6] = array( __('Manage Sites'), 'read', 'network/index.php' );
 }
 
 if ( ! is_multisite() || is_super_admin() )

@@ -59,7 +59,9 @@ get_header(); ?>
 
 							<h3>
 								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+
 								<div class="podcast_meta"><?php echo $series; ?><aside></div>
+								
 							</h3>
 
 						</article>
